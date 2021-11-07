@@ -18,6 +18,7 @@ const Header = () => {
           justifyContent: 'center',
           alignItems: 'flex-start',
           height: '80vh',
+          ml: 3,
         }}
       >
         <Typography
