@@ -19,7 +19,7 @@ const FeaturedProducts = () => {
           <Box
             sx={{ width: { xs: '100%', lg: '40%' } }}
             component="img"
-            src="images/products/f6.png"
+            src="images/products/f1.png"
           />
           <Box sx={{ paddingLeft: '10px', mt: { lg: 22, xs: 2 } }}>
             <Typography sx={{ fontWeight: 'bold' }} variant="h6">
@@ -52,7 +52,7 @@ const FeaturedProducts = () => {
           <Box
             sx={{ width: { xs: '100%', lg: '40%' } }}
             component="img"
-            src="images/products/f1.png"
+            src="images/products/f2.png"
           />
           <Box sx={{ paddingLeft: '10px', mt: { lg: 22, xs: 2 } }}>
             <Typography sx={{ fontWeight: 'bold' }} variant="h6">
