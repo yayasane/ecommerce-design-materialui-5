@@ -2,6 +2,7 @@ import { Button, Grid, styled, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import DesktopCategory from './DesktopCategory'
 import MobileCategory from './MobileCategory'
+import ProductList from './ProductList'
 
 /* const MobileCategoryContainer = styled('div')((theme)=>{
   return {
@@ -106,6 +107,7 @@ const FeaturedProducts = () => {
         <MobileCategory />
       </Box>
       {/* Product list */}
+      <ProductList />
     </Box>
   )
 }
