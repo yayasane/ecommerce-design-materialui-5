@@ -1,5 +1,6 @@
 import { Button, Grid, Typography } from '@mui/material'
 import { Box } from '@mui/system'
+import DesktopCategory from './DesktopCategory'
 
 const FeaturedProducts = () => {
   return (
@@ -73,7 +74,9 @@ const FeaturedProducts = () => {
           </Box>
         </Grid>
       </Grid>
+      {/* Desktop Categorie */}
       {/* Product list */}
+      <DesktopCategory />
     </Box>
   )
 }
