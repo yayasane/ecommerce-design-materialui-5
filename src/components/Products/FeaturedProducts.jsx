@@ -1,6 +1,15 @@
-import { Button, Grid, Typography } from '@mui/material'
+import { Button, Grid, styled, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import DesktopCategory from './DesktopCategory'
+import MobileCategory from './MobileCategory'
+
+/* const MobileCategoryContainer = styled('div')((theme)=>{
+  return {
+    display:{
+      x
+    }
+  }
+}) */
 
 const FeaturedProducts = () => {
   return (
@@ -74,9 +83,29 @@ const FeaturedProducts = () => {
           </Box>
         </Grid>
       </Grid>
-      {/* Desktop Categorie */}
+      {/* Desktop Categoriy */}
+      <Box
+        sx={{
+          display: {
+            xs: 'none',
+            lg: 'block',
+          },
+        }}
+      >
+        <DesktopCategory />
+      </Box>
+      {/* Mobile Category */}
+      <Box
+        sx={{
+          display: {
+            xs: 'block',
+            lg: 'none',
+          },
+        }}
+      >
+        <MobileCategory />
+      </Box>
       {/* Product list */}
-      <DesktopCategory />
     </Box>
   )
 }
